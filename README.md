@@ -1,4 +1,4 @@
-# My React Boilerplate Starter ====
+# My React and Redux Boilerplate Starter ====
 Has Scss and React Router DOM and basic Components set up.
 
 
