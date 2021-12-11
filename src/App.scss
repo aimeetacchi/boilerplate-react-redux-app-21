@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import 'normalize.css';
+
+@import './scss/all';
+
+html {
+  font-size: 62.5%; // 10px;
+}
+
+body {
+  background-color: $palepurple;
+  font-family: $mainFont;
+  font-size: 1.6rem; // 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+color: $pink
+}
+
+h1 {
+  font-size: 5.2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 4.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.example-post {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+}

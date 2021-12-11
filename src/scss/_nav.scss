@@ -1,0 +1,20 @@
+nav {
+    .nav-list {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+  
+      &__item {
+        padding: 0 10px;
+  
+        a {
+          color: $light;
+          text-decoration: none;
+  
+          &:hover {
+            color: darken($light, 20%);
+          }
+        }
+      }
+    }
+  }
